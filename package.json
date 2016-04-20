@@ -1,0 +1,38 @@
+{
+  "name": "maybe-polyfill",
+  "version": "1.0.0",
+  "description": "Promises for people afraid of commitment.",
+  "main": "maybe.js",
+  "scripts": {
+    "test": "eslint maybe.js && mocha && karma start --single-run",
+    "build": "uglifyjs --compress --mangle -o maybe.min.js -- maybe.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://mannynotfound@github.com/mannynotfound/maybe-polyfill.git"
+  },
+  "author": "Taylor Hakes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mannynotfound/maybe-polyfill/issues"
+  },
+  "homepage": "https://github.com/mannynotfound/maybe-polyfill",
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "karma": "^0.13.19",
+    "karma-browserify": "^4.4.2",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.1",
+    "mocha": "^2.3.4",
+    "promises-aplus-tests": "*",
+    "sinon": "^1.17.2",
+    "uglify-js": "^2.6.2"
+  },
+  "keywords": [
+    "maybe",
+    "maybe-polyfill",
+    "ES6",
+    "commitment"
+  ],
+  "dependencies": {}
+}

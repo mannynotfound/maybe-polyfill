@@ -1,0 +1,28 @@
+{
+  "name": "maybe-polyfill",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mannynotfound/maybe-polyfill",
+  "authors": [
+    "Taylor Hakes"
+  ],
+  "description": "Promises for people who those afraid of commitment.",
+  "main": "Maybe.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "maybe",
+    "es6",
+    "polyfill",
+    "html5"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
